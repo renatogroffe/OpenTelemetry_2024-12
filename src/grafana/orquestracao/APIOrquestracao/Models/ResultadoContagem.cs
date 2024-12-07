@@ -4,6 +4,8 @@ public class ResultadoOrquestracao
 {
     public string? Horario { get; set; }
     public ResultadoContagem? ContagemPostgres { get; set; }
+    public ResultadoContagem? ContagemMySql { get; set; }
+    public ResultadoContagem? ContagemSqlServer { get; set; }
 }
 
 public class ResultadoContagem
